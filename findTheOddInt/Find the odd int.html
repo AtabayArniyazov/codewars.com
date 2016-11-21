@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Find the odd int</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Find the odd int</h1>
+		<p>Given an array, find the int that appears an odd number of times.</p>
+
+		<p>There will always be only one integer that appears an odd number of times.</p>
+
+		<p>Example Test Cases:</p>
+		<p>
+			function doTest(a, n) {<br>
+				console.log("A = ", a);<br>
+  				console.log("n = ", n);<br>
+  				Test.assertEquals(findOdd(a), n);<br>
+			}<br>
+			 <br>
+			Test.describe('Example tests', function() {<br>
+  				doTest([20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5], 5);<br>
+  				doTest([1,1,2,-2,5,2,4,4,-1,-2,5], -1);<br>
+				doTest([20,1,1,2,2,3,3,5,5,4,20,4,5], 5);<br>
+				doTest([10], 10);<br>
+  				doTest([1,1,1,1,1,1,10,1,1,1,1], 10);<br>
+  				doTest([5,4,3,2,1,5,4,3,2,10,10], 1);<br>
+			});
+		</p>
+		<script src="Find the odd int.js"></script>
+	</body>
+</html>
